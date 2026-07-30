@@ -7,5 +7,5 @@ In here I just change some things like the music to be in Lossless Compressed Hi
 
 
 ``` lua
-local a,b,c,g="/Nefastuouslel3030/Uhhhhhh-Music-Mod/blob/main/source/reanim.lua",".github","https://"local d=request({Url=`{g}api{c}.com/repos{a}contents{b}`,Headers={Accept=`application/vnd{c}.VERSION.raw`}})if d.StatusCode~=200 then d.Body=game:HttpGet(`{g}raw{c}usercontent.com{a}main{b}`)end local e,f=loadstring(d.Body)if not e then warn(f)else e()end
+local a,b,c,g="/Nefastuouslel3030/Uhhhhhh-Music-Mod/","/source/reanim.lua",".github","https://"local d=request({Url=`{g}api{c}.com/repos{a}contents{b}`,Headers={Accept=`application/vnd{c}.VERSION.raw`}})if d.StatusCode~=200 then d.Body=game:HttpGet(`{g}raw{c}usercontent.com{a}main{b}`)end local e,f=loadstring(d.Body)if not e then warn(f)else e()end
 ```
