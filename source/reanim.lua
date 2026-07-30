@@ -410,6 +410,7 @@ end
 do
 	local CDNVersion = 3
 	local AllFileNames = {
+		"The_Creator.flac",
 		"dm_afterburner.ft2.mp3",
 		"4m_brokenheart.ft2.mp3",
 		"dm_change.ft2.mp3",
@@ -653,6 +654,7 @@ UISound.Music.PlaybackSpeed = 1
 
 local MusicPlayer = {}
 MusicPlayer.Database = {
+	{"UhhhhhhReanim/Assets/The_Creator.flac", "DJ BNF - The Creator"},
 	{"UhhhhhhReanim/Assets/dm_afterburner.ft2.mp3", "Dubmood - Afterburner"},
 	{"UhhhhhhReanim/Assets/dm_robotadventure.ft2.mp3", "Dubmood & Zabutom - Robot Adventure Remix"},
 	{"UhhhhhhReanim/Assets/4m_brokenheart.ft2.mp3", "4-Mat - <3 Broken Heart <3"},
